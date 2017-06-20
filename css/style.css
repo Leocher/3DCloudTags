@@ -1,0 +1,35 @@
+﻿*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:#333;
+}
+#tags{
+    width: 800px;
+    height: 800px;
+    position:relative;
+    margin:0 auto;
+}
+#tags a{
+    position:absolute;
+    top:0px;
+    left:0px;
+    color:#fff;
+    font-weight:bold;
+    padding:3px 6px;
+    text-decoration: none;
+    transition: 0.2s linear;
+    -webkit-transition: 0.2s linear;
+    -o-transition: 0.2s linear;
+    -moz-transition: 0.2s linear;
+    -ms-transition: 0.2s linear;
+}
+#tags a:hover{
+    color:deepskyblue;
+    transform: rotate(360deg) scale(1.5);
+    -ms-transform: rotate(360deg) scale(1.5);
+    -webkit-transform: rotate(360deg) scale(1.5);
+    -o-transform: rotate(360deg) scale(1.5);
+    -moz-transform: rotate(360deg) scale(1.5);
+}
